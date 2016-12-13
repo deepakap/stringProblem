@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29" started-at="2016-12-13T06:23:08Z" finished-at="2016-12-13T06:23:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29" started-at="2016-12-13T06:23:08Z" finished-at="2016-12-13T06:23:08Z">
+      <class name="com.app.work.StringTest">
+        <test-method status="PASS" signature="prepareTestData()[pri:0, instance:com.app.work.StringTest@4439f31e]" name="prepareTestData" is-config="true" duration-ms="3" started-at="2016-12-12T22:23:08Z" finished-at="2016-12-12T22:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTestData -->
+        <test-method status="PASS" signature="_testStringReplacemt()[pri:0, instance:com.app.work.StringTest@4439f31e]" name="_testStringReplacemt" duration-ms="7" started-at="2016-12-12T22:23:08Z" finished-at="2016-12-12T22:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _testStringReplacemt -->
+        <test-method status="PASS" signature="tearDownTestData()[pri:0, instance:com.app.work.StringTest@4439f31e]" name="tearDownTestData" is-config="true" duration-ms="1" started-at="2016-12-12T22:23:08Z" finished-at="2016-12-12T22:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestData -->
+        <test-method status="PASS" signature="testStringReplacemtWithJava()[pri:0, instance:com.app.work.StringTest@4439f31e]" name="testStringReplacemtWithJava" duration-ms="1" started-at="2016-12-12T22:23:08Z" finished-at="2016-12-12T22:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringReplacemtWithJava -->
+        <test-method status="PASS" signature="prepareTestData()[pri:0, instance:com.app.work.StringTest@4439f31e]" name="prepareTestData" is-config="true" duration-ms="0" started-at="2016-12-12T22:23:08Z" finished-at="2016-12-12T22:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTestData -->
+        <test-method status="PASS" signature="tearDownTestData()[pri:0, instance:com.app.work.StringTest@4439f31e]" name="tearDownTestData" is-config="true" duration-ms="0" started-at="2016-12-12T22:23:08Z" finished-at="2016-12-12T22:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestData -->
+      </class> <!-- com.app.work.StringTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

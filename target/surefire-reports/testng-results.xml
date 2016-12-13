@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1585" started-at="2016-12-13T07:33:44Z" finished-at="2016-12-13T07:33:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1585" started-at="2016-12-13T07:33:44Z" finished-at="2016-12-13T07:33:45Z">
+      <class name="com.app.work.StringTest">
+        <test-method status="PASS" signature="prepareTestData()[pri:0, instance:com.app.work.StringTest@2acf57e3]" name="prepareTestData" is-config="true" duration-ms="4" started-at="2016-12-12T23:33:44Z" finished-at="2016-12-12T23:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTestData -->
+        <test-method status="PASS" signature="_testStringReplacemt()[pri:0, instance:com.app.work.StringTest@2acf57e3]" name="_testStringReplacemt" duration-ms="4" started-at="2016-12-12T23:33:44Z" finished-at="2016-12-12T23:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _testStringReplacemt -->
+        <test-method status="PASS" signature="tearDownTestData()[pri:0, instance:com.app.work.StringTest@2acf57e3]" name="tearDownTestData" is-config="true" duration-ms="0" started-at="2016-12-12T23:33:44Z" finished-at="2016-12-12T23:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestData -->
+        <test-method status="PASS" signature="testStringReplacemtWithJava()[pri:0, instance:com.app.work.StringTest@2acf57e3]" name="testStringReplacemtWithJava" duration-ms="0" started-at="2016-12-12T23:33:44Z" finished-at="2016-12-12T23:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringReplacemtWithJava -->
+        <test-method status="PASS" signature="prepareTestData()[pri:0, instance:com.app.work.StringTest@2acf57e3]" name="prepareTestData" is-config="true" duration-ms="0" started-at="2016-12-12T23:33:44Z" finished-at="2016-12-12T23:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTestData -->
+        <test-method status="PASS" signature="tearDownTestData()[pri:0, instance:com.app.work.StringTest@2acf57e3]" name="tearDownTestData" is-config="true" duration-ms="1" started-at="2016-12-12T23:33:44Z" finished-at="2016-12-12T23:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestData -->
+      </class> <!-- com.app.work.StringTest -->
+      <class name="com.app.work.TestiTunesSearchApi">
+        <test-method status="PASS" signature="defineSearchParams()[pri:0, instance:com.app.work.TestiTunesSearchApi@506e6d5e]" name="defineSearchParams" is-config="true" duration-ms="1" started-at="2016-12-12T23:33:44Z" finished-at="2016-12-12T23:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSearchParams -->
+        <test-method status="PASS" signature="_testSearchTerm()[pri:0, instance:com.app.work.TestiTunesSearchApi@506e6d5e]" name="_testSearchTerm" duration-ms="1021" started-at="2016-12-12T23:33:44Z" finished-at="2016-12-12T23:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _testSearchTerm -->
+        <test-method status="PASS" signature="_testSearchTermCountry()[pri:0, instance:com.app.work.TestiTunesSearchApi@506e6d5e]" name="_testSearchTermCountry" duration-ms="109" started-at="2016-12-12T23:33:45Z" finished-at="2016-12-12T23:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _testSearchTermCountry -->
+        <test-method status="PASS" signature="defineSearchParams()[pri:0, instance:com.app.work.TestiTunesSearchApi@506e6d5e]" name="defineSearchParams" is-config="true" duration-ms="0" started-at="2016-12-12T23:33:45Z" finished-at="2016-12-12T23:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSearchParams -->
+        <test-method status="PASS" signature="_testSearchTermCountryMedia()[pri:0, instance:com.app.work.TestiTunesSearchApi@506e6d5e]" name="_testSearchTermCountryMedia" duration-ms="293" started-at="2016-12-12T23:33:45Z" finished-at="2016-12-12T23:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _testSearchTermCountryMedia -->
+        <test-method status="PASS" signature="defineSearchParams()[pri:0, instance:com.app.work.TestiTunesSearchApi@506e6d5e]" name="defineSearchParams" is-config="true" duration-ms="0" started-at="2016-12-12T23:33:45Z" finished-at="2016-12-12T23:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSearchParams -->
+        <test-method status="PASS" signature="_testSearchTermCountryMediaWithLimit()[pri:0, instance:com.app.work.TestiTunesSearchApi@506e6d5e]" name="_testSearchTermCountryMediaWithLimit" duration-ms="132" started-at="2016-12-12T23:33:45Z" finished-at="2016-12-12T23:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _testSearchTermCountryMediaWithLimit -->
+        <test-method status="PASS" signature="defineSearchParams()[pri:0, instance:com.app.work.TestiTunesSearchApi@506e6d5e]" name="defineSearchParams" is-config="true" duration-ms="0" started-at="2016-12-12T23:33:45Z" finished-at="2016-12-12T23:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSearchParams -->
+      </class> <!-- com.app.work.TestiTunesSearchApi -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

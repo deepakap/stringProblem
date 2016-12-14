@@ -13,26 +13,26 @@ import java.util.List;
  */
 public class JavaStringManipulation {
 	
-	public String replaceStringWithCharacter(String str, char c){
-		String result;
-		int stLength = str.length();
+	public String removeCharacter(String str, char c){
+		String result="";
 		List<Character> charList = new ArrayList<Character>();
-		for(int i=0;i< stLength;i++){
-			charList.add(str.toLowerCase().charAt(i));
+		for(char cr:str.toCharArray()){
+			charList.add(cr);
 		}
 		Iterator<Character> itr = charList.iterator();
 		while(itr.hasNext()){
-			if(itr.next()==c){
+			char value = itr.next();
+			if(c == (Character.toLowerCase(value) | value)){
 				itr.remove();
+			}else{
+				result+=value+"";
 			}
 		}
-		return charList.toString().replaceAll("[,\\s\\[\\]]", "");
+		return result;
 	}
 	
-	
-	public String replaceStringWithJava(String str, char c){
+	public String removeCharacterJava(String str, char c){
 		return str.toLowerCase().replaceAll(c+"","").trim();
 	}
-	
 	
 }

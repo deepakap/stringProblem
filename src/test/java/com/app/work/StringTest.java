@@ -19,17 +19,21 @@ import com.app.service.JavaStringManipulation;
 public class StringTest {
 
 	public Map<String, String> strMap;
+	char removeCharacter;
 
 	@BeforeMethod
 	public void prepareTestData() {
-		// positive and negative cases
+		// positive and negative cases with Key as String to be replaced and value is expected string after character removal
 		strMap = new Hashtable<String, String>();
 		strMap.put("Apple", "pple");
 		strMap.put("samsung", "smsung");
 		strMap.put("scanaitem", "scnitem");
 		strMap.put("Verizon", "Verizon");
 		strMap.put("simulator", "simultor");
+		strMap.put("scan and Buy", "scn nd Buy");
+		strMap.put("deepak.ap64@gmail.com", "deepk.p64@gmil.com");
 		strMap.put("", "");
+		removeCharacter = 'a';
 	}
 
 	@Test(enabled = true)
@@ -38,7 +42,7 @@ public class StringTest {
 		while (itr.hasNext()) {
 			Map.Entry<String, String> pair = (Entry<String, String>) itr.next();
 			String repString = new JavaStringManipulation()
-					.replaceStringWithCharacter(pair.getKey(), 'a');
+					.removeCharacter(pair.getKey(), removeCharacter);
 			Assert.assertEquals(repString.toLowerCase(), pair.getValue()
 					.toLowerCase());
 		}
@@ -50,7 +54,7 @@ public class StringTest {
 		while (itr.hasNext()) {
 			Map.Entry<String, String> pair = (Entry<String, String>) itr.next();
 			String repString = new JavaStringManipulation()
-					.replaceStringWithJava(pair.getKey(), 'a');
+					.removeCharacterJava(pair.getKey(), removeCharacter);
 			Assert.assertEquals(repString.toLowerCase(), pair.getValue()
 					.toLowerCase());
 		}
@@ -59,6 +63,7 @@ public class StringTest {
 	@AfterMethod
 	public void tearDownTestData() {
 		strMap.clear();
+		removeCharacter='\0';
 	}
 
 }

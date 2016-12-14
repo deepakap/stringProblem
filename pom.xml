@@ -9,7 +9,7 @@
 
   <name>StringReplaceExercise</name>
   <url>http://maven.apache.org</url>
-
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -22,10 +22,10 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20141113</version>
-	</dependency>
+	<groupId>org.json</groupId>
+	<artifactId>json</artifactId>
+	<version>20141113</version>
+    </dependency>
     <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
